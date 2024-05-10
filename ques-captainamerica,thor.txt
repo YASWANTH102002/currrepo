@@ -1,0 +1,56 @@
+#sudo su -
+
+#useradd thor
+
+#useradd thanos
+
+#useradd ironman
+
+#useradd captainamerica
+
+#passwd thor
+
+#passwd thanos
+
+#passwd ironman
+
+#passwd captainamerica
+
+#groupadd sales
+
+#groupadd marketing
+
+#usermod -G sales thanos
+
+#usermod -G sales captainamerica
+
+#cat /etc/group | grep -i sales
+
+#mkdir /salesdata
+
+#cd /salesdata/
+
+#ll -d /salesdata/
+
+#chgrp sales /salesdata
+
+#chmod 770 /salesdata/
+
+#su - thanos
+
+#cd /salesdata/
+
+#cat > th.txt
+	hi
+
+#ll
+
+#exit
+
+#su - captainamerica
+
+#cd /salesdata/
+
+#cat captainamerica.txt
+	hi
+
