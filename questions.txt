@@ -1,0 +1,19 @@
+1.deploy a ec2 instance using of t2.micro instance in Mumbai region in zone ap-south-1a. Configure web server on it and make it live, and attach 5gb ebs volume. Where create 10 files like training.txt
+
+2.my one team is working with in Mumbai india region and they have some important data in the ebs volume. And another team is working with Singapore region. They also want to access same data which is available in mumbai region. Share it in different region.
+
+3.i have on web server in mumbai region where my website is running. I need same server in Singapore region Migrate this web server from Mumbai to Singapore
+
+4.Launch a AWS S3 bucket with Uniqueame, and upload some objects. And this S3 bucket should be reachable on windows host from where I can upload the object in the AWS S3 bucket
+
+5.Create a custom VPC. Where you need to create two Subnets like Private subnet and Public subnet in the public subnet I want to host my web server. Where my website is running and Private subnet my database is running. Data base should not be reachable publically
+
+6.create two custom VPC one in Mumbai Region and Another is in Singapore Region.so configure VPC peering in between Mumbai and Singapore
+
+7.Deploy an EC2 instance using with cloud formation in Mumbai Region ap-south-la zone. Instance should be reachable
+
+8.We people are working on a common project in a sale region. But my servers are in different zones, Sol want to share project information with everyone simultaneously. configure efs storage it should be mount on every server
+
+9.Enable MFA on root account on AWS account, and generate access key and secret key for root account.
+
+10.Create an IAM rode for doud formation service with administrator full access. And create a stack to deploy of your Json code
