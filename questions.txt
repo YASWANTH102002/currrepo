@@ -16,4 +16,4 @@
 
 9.Enable MFA on root account on AWS account, and generate access key and secret key for root account.
 
-10.Create an IAM rode for doud formation service with administrator full access. And create a stack to deploy of your Json code
+10.Create an IAM role for cloud formation service with administrator full access. And create a stack to deploy of your Json code
